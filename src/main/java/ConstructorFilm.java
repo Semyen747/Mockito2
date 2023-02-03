@@ -3,7 +3,7 @@ public class ConstructorFilm {
     private String filmName;
     private String genre;
 
-    public FilmConstructor(int id, String filmName, String genre) {
+    public ConstructorFilm(int id, String filmName, String genre) {
         this.id = id;
         this.filmName = filmName;
         this.genre = genre;
@@ -13,4 +13,4 @@ public class ConstructorFilm {
         return id + " " + filmName + " " + genre;
     }
 }
-}
+

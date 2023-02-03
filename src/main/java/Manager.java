@@ -1,7 +1,7 @@
 public class Manager {
     private int defaultLength = 10;
     private int currentLength = defaultLength;
-    private ConstructorFilm[] films = new ConstructorFilm[][0];
+    private ConstructorFilm[] films = new ConstructorFilm[0];
 
     public Manager(int currentLength) {
         this.currentLength = currentLength;
@@ -40,4 +40,4 @@ public class Manager {
         return films;
     }
 }
-}
+
